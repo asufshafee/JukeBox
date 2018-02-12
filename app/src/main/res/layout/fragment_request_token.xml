@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/trans_white_rectangle"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.geeksera.jukebox.RequestSong">
+
+
+    <TextView
+        android:id="@+id/SongName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="App Sa Mill Ka Hum Yo Bada S Gyae"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Enter Number of Tokens To Consume"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/NoOFTokens"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_white"
+        android:hint="No Tokens"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/SendRequest"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_layout"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Send Request"
+        android:textColor="@color/white"
+        android:textStyle="normal" />
+
+
+</LinearLayout>

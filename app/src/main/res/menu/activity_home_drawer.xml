@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group
+        android:id="@+id/HomeA"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:title="Home" />
+    </group>
+    <group
+        android:id="@+id/one"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/TokenRequest"
+            android:title="Token Requests" />
+    </group>
+    <group
+        android:id="@+id/tow"
+        android:checkableBehavior="single">
+
+    </group>
+    <group
+        android:id="@+id/three"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/TodayTheme"
+            android:title="Today Theme" />
+    </group>
+    <group
+        android:id="@+id/six"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/history"
+            android:title="History" />
+    </group>
+    <group
+        android:id="@+id/five"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/Exit"
+            android:title="Exit" />
+
+    </group>
+</menu>
